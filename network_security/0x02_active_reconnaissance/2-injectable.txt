@@ -1,0 +1,5 @@
+/admin
+/contact
+/login
+/orders
+/products
