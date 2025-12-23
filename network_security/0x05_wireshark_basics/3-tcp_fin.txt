@@ -1,0 +1,1 @@
+tcp.flags.fin==1 && tcp.flags.ack==0 && tcp.flags.syn==0 && tcp.window_size_value==1024
