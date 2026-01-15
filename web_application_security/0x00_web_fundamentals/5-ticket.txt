@@ -1,3 +1,12 @@
-GET /ticket?id=8 HTTP/1.1
+GET /ticket?id=1 HTTP/1.1
 Host: web0x00.hbtn
-Cookie:session=.eJxFyksKgCAURuG9_GMJmzoqWkIrULyR4AuvUhDtPaGBw_NxHqw2uMhQh_ZMAlvjmgKVIXvLOZXaoZbWm4J2Hgr8-3KRkbeU02lqhICzULNAYypRBxoj3g8vsSW4.aUv_aQ.5IU-rmkRwQpJ0HUacvn6EaXyWhc
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://web0x00.hbtn/support
+Cookie: session=.eJxFyksKgCAURuG9_GMJmzoqWkIrULyR4AuvUhDtPaGBw_NxHqw2uMhQh_ZMAlvjmgKVIXvLOZXaoZbWm4J2Hgr8-3KRkbeU02lqhICzULNAYypRBxoj3g8vsSW4.aWi5zA.N1yCFPnNlZTx62X24Lnbma5YlhA
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
