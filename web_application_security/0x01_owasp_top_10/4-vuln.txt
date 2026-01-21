@@ -1,0 +1,1 @@
+echo "bio" > 4-vuln.txt
