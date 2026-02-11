@@ -1,0 +1,497 @@
+Jules
+jules_48403_07514
+En ligne
+
+Pierre-Yves C26 - Tho — 21/01/2026 11:34
+Oui c'est bien ce fichier, et là il faut que tu change l'ip de web0x01.hbtn avec celle du container que tu as chargé
+Ahmed Cloarec — 21/01/2026 11:45
+Oui mais c'est ce que j'ai fait
+et même après ça, ça ne fonctionne toujours pas
+Pierre-Yves C26 - Tho — 21/01/2026 11:48
+Si tu as bien prit lancé le container cyber_websec_0x01 et pris son IP ca devrait être bon pourtant. 
+Et en activant le VPN Holberton
+Ahmed Cloarec — 21/01/2026 12:21
+oui tout est bon de ce côté
+j'ai vraiment tout checké hier pendant toute la journée
+Ahmed Cloarec — 21/01/2026 14:14
+@Rémi - SWE de Frejus Bonjour, vous auriez une idée svp ?
+Rémi - SWE de Frejus — 21/01/2026 14:21
+Bonjour Ahmed, peux tu envoyer le lien de la tâche stp.
+Ahmed Cloarec — 21/01/2026 14:53
+Oui le voici:
+
+https://intranet.hbtn.io/projects/3132
+Sessions - new | Intranet
+Othman Meziane — 23/01/2026 09:51
+Salut c’est à quel heure Check in
+Noor Medjahed — 23/01/2026 11:54
+Desolé je viens  de voir ton message il n’y a pas de check in ojd
+Othman Meziane — 23/01/2026 11:58
+ahhhh
+Brice kanga — 28/01/2026 10:02
+Bonjour a tous,quelqu'un pourrais m'aider pour la tache 3 de la semaine ?
+Axel - SWE de Rennes & Laval — 30/01/2026 10:21
+Je vais avoir quelques minutes de retard pour le check in les C26
+Rayane Allaoui — 30/01/2026 10:48
+Bonjour,
+Comme demandé précédemment voici nous nous sommes mis d'accord sur les 2 certifs à choisir
+Merci 
+Image
+Ahmed Cloarec — 04/02/2026 14:06
+Bonjour, je pourrais pas être présent au PLD d'aujourd'hui pour des raisons techniques (et j'ai pas accès à mon pc actuellement)
+Image
+Othman Meziane — 04/02/2026 14:58
+salut @Rémi - SWE de Frejus l'intranet il a été modifier mais il est pas ouf on vois pas les check
+Rémi - SWE de Frejus — 04/02/2026 15:04
+Bonjour Othman, étant donné que vous n'avez pas le détail des checks en temps normal, quelle est ta demande ?
+Othman Meziane — 04/02/2026 16:13
+voici un exemple
+Image
+Rémi - SWE de Frejus — 04/02/2026 16:29
+Oui le détail des checks n'est pas affiché, c'est normal.
+Othman Meziane — 05/02/2026 10:28
+Non non je ne parle pas du Check
+Je dit  que le mode dark n’affiche pas tout la j’arrive même pas à voir quel Check il me manque
+Rémi - SWE de Frejus — 05/02/2026 13:28
+Ok je vois ! Oui effectivement il y a quelques bugs visuels sur le dark mode. Si cela vous impacte réellement désactivez-le 😉 .
+Ahmed Cloarec — 05/02/2026 14:43
+Bonjour ! Je voulais savoir comment ça se passe pour les stages au niveau de la convention ?
+Rémi - SWE de Frejus — 05/02/2026 15:14
+Hello ! Il faut que tu voies avec ton staff local (SSM) 🙂 .
+Ahmed Cloarec — 05/02/2026 15:23
+Okay nice merci pour la réponse !
+Ahmed Cloarec — Hier à 12:07
+Bonjour, pour le projet de la semaine j'ai de gros soucis au niveau de la clé API
+Image
+Image
+Axel - SWE de Rennes & Laval — Hier à 14:17
+Hello, d'autres dans la même situation qu'Ahmed ?
+Hello les C#26, j'espère que vous allez bien. Concernant le PLD de cette semaine, je vous laisse un sondage pour déterminer le type de celui-ci:
+
+PLD Type 1 : Peer teaching. Un étudiant mentor pour un cas pratique sur un concept que vous avez déjà abordé.
+PLD classique (comme la semaine dernière) : Vous travaillez et revoyez par groupe de 3 les tâches de la semaine
+
+Merci de répondre avant la fin de journée s'il vous plaît
+PLD Type
+Type 1
+
+1 vote
+14%
+Classique
+Tu as voté pour cette réponse
+
+6 votes
+86%
+
+7 votes
+Sondage terminé
+Axel - SWE de Rennes & Laval — 14:13
+Voici le fichier dns_wordlist.txt pour la tâche 5 du projet content discovery
+default.php
+index.php
+view.html.php
+helper.php
+controller.php
+frontend.php
+backend.php
+colorConfig.ini.php
+config.php
+router.php
+view.php
+search.php
+user.php
+menu.php
+admin.php
+main.php
+header.php
+form.php
+modules.php
+installer.php
+footer.php
+component.php
+navigation.php
+xoops_version.php
+functions.php
+login.php
+core.write_file.php
+core.rmdir.php
+core.rm_auto.php
+core.php
+core.is_trusted.php
+core.is_secure.php
+category.php
+modifier.upper.php
+modifier.strip.php
+geshi.php
+event.php
+edit.php
+LICENSES.php
+INSTALL.php
+File.php
+orders.php
+language.php
+faq.php
+commands.php
+basexml.php
+zones.php
+xmlrpc.php
+smtp.php
+session.php
+reviews.php
+logout.php
+info.php
+index3.php
+html.php
+element.php
+confirm.php
+auth.php
+whos_online.php
+toolbar.php
+single.php
+plugins.php
+ini.php
+en_US.php
+email.php
+backup.php
+article.php
+xml_domit_rss.php
+widgets.php
+test.php
+spellchecker.php
+posting.php
+pathway.php
+pageNavigation.php
+nl_NL.php
+newsfeeds.php
+newsfeed.php
+manufacturers.php
+manager.php
+mailto.php
+log.php
+it_IT.php
+frontpage.php
+de_DE.php
+cs_CZ.php
+countries.php
+comment_post.php
+comment_edit.php
+comment_delete.php
+cms.php
+view.raw.php
+vcard.php
+upgrade_config.php
+theme.php
+text.php
+tax_rates.php
+tax_classes.php
+stats_customers.php
+server_info.php
+ru_RU.php
+... (196lignes restantes)
+
+dns_wordlist.txt
+4 Ko
+Guillaume Forget — 14:16
+super merci Axel
+Le sondage « PLD Type » de 
+Axel - SWE de Rennes & Laval
+ est clos. — 14:21
+Classique
+Réponse gagnante • 86%
+
+Voir le sondage
+﻿
+default.php
+index.php
+view.html.php
+helper.php
+controller.php
+frontend.php
+backend.php
+colorConfig.ini.php
+config.php
+router.php
+view.php
+search.php
+user.php
+menu.php
+admin.php
+main.php
+header.php
+form.php
+modules.php
+installer.php
+footer.php
+component.php
+navigation.php
+xoops_version.php
+functions.php
+login.php
+core.write_file.php
+core.rmdir.php
+core.rm_auto.php
+core.php
+core.is_trusted.php
+core.is_secure.php
+category.php
+modifier.upper.php
+modifier.strip.php
+geshi.php
+event.php
+edit.php
+LICENSES.php
+INSTALL.php
+File.php
+orders.php
+language.php
+faq.php
+commands.php
+basexml.php
+zones.php
+xmlrpc.php
+smtp.php
+session.php
+reviews.php
+logout.php
+info.php
+index3.php
+html.php
+element.php
+confirm.php
+auth.php
+whos_online.php
+toolbar.php
+single.php
+plugins.php
+ini.php
+en_US.php
+email.php
+backup.php
+article.php
+xml_domit_rss.php
+widgets.php
+test.php
+spellchecker.php
+posting.php
+pathway.php
+pageNavigation.php
+nl_NL.php
+newsfeeds.php
+newsfeed.php
+manufacturers.php
+manager.php
+mailto.php
+log.php
+it_IT.php
+frontpage.php
+de_DE.php
+cs_CZ.php
+countries.php
+comment_post.php
+comment_edit.php
+comment_delete.php
+cms.php
+view.raw.php
+vcard.php
+upgrade_config.php
+theme.php
+text.php
+tax_rates.php
+tax_classes.php
+stats_customers.php
+server_info.php
+ru_RU.php
+packingslip.php
+orders_status.php
+none.php
+newsletters.php
+nb_NO.php
+link.php
+invoice.php
+information.php
+home.php
+general.php
+gallery.php
+fr_FR.php
+folder.php
+fi_FI.php
+fastsearch.php.save
+fastsearch.php
+exhibits.php
+exhibitions.php
+exhibitdetails.php
+events_photo.php
+download.php
+dig_exhib.php
+da_DK.php
+collections.php
+captcha.php
+about1.php
+Thumbnail.php
+Text.php
+Tar.php
+3d_exhibits1.php
+3d_exhibits.php
+3D_preview.php
+xcache.php
+viewonline.php
+vert.php
+uploadbusplan.php
+tree.php
+thumbs.php
+storage.php
+pressrelease.php
+pl_PL.php
+phpcompat.php
+password.php
+order.php
+notification.php
+move.php
+modcp.php
+messages.php
+mamboxml.php
+mambo.php
+loop.php
+logoff.php
+inputfilter.php
+index.php.bak
+head.php
+groupcp.php
+global.php
+german.php
+gacl_api.class.php
+gacl.class.php
+factory.php
+en.php
+edituser.php
+downloads.php
+default_raw.php
+database.mysqli.php
+contacts.php
+compat.php
+behavior.php
+awards.php
+admin_header.php
+Tidy.php
+Server.php
+Name.php
+uploadbplan.php
+unicode_data.php
+ucwords.php
+ucfirst.php
+trim.php
+tools.php
+testingheader.php
+templates.php
+tcpdf_config.php
+substr_replace.php
+strspn.php
+strrev.php
+stristr.php
+strcspn.php
+strcasecmp.php
+str_split.php
+str_ireplace.php
+status.php3
+sql.php3
+shipping.php
+sessionWrite.php
+sessionRead.php
+select.php
+sef.php
+sections.php
+resources.php
+reset.php
+remember.php
+register_result.php
+register_orig.php
+register8.php
+register7.php
+register6.php
+register5.php
+register4.php
+register3.php
+register2.php
+register1.php
+readmore.php
+rate.php
+radio.php
+query.php
+print.php
+popup_image.php
+phpmailer.php
+php_text_cache.php
+php_http_proxy.php
+path.php
+patTemplate.php
+patErrorManager.php
+patError.php
+pagenavigation.php
+openid.php
+offline.php
+non_competitors.php
+model.php
+mod_wrapper.php
+mod_whosonline.php
+mod_syndicate.php
+mod_sections.php
+mod_search.php
+mod_random_image.php
+mod_poll.php
+mod_newsflash.php
+mod_mostread.php
+mod_mainmenu.php
+mod_latestnews.php
+mod_breadcrumbs.php
+mod_banners.php
+mod_archive.php
+mime.php
+methods.php
+method.upgrade.php
+method.install.php
+menuleftbackup.php
+mentors.php
+mainfile.php
+loadmodule.php
+load.php
+lib.php
+leaflet.php
+launch.php
+judging.php
+invitation.php
+indexbackup.php
+images2.php
+images1.php
+html4strict.php
+hidden.php
+hiddenflag.php
+header.inc.php
+groups.php
+group.php
+gmail.php
+gacl_api.php
+gacl.php
+fsbb.php
+freesansi.php
+freesansbi.php
+freesansb.php
+products_new.php
+privmsg.php
+privacy.php
+phocagallery.php
+permissions.php
+pclzip.lib.php
+paypal.php
+parameters.php
+page_info.php
+options.php
+new.php
+mainframe.php
+mailform.php
+logger.php
+localization.php
+locale.php
+links.php
+k2.php
+itransact.php
+index.php.1317078588
