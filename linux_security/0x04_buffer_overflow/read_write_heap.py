@@ -87,7 +87,8 @@ def read_write_heap(pid, search_string, replace_string):
             sys.exit(1)
 
         address = start + offset
-        payload = replace_bytes+(b"\x00"*len(search_bytes)-len(replace_bytes))
+        padding_length = len(search_bytes) - len(replace_bytes)
+        payload = replace_bytes + (b"\x00" * padding_length)
         mem_file.seek(address)
         mem_file.write(payload)
 
