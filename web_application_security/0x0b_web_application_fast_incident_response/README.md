@@ -53,8 +53,6 @@ The IP address with the highest number of requests should be considered the **pr
 
 **Attacker IP:** `54.145.34.34`
 
-> Replace `54.145.34.34` with the exact result from your `0-attack_ip.sh` script.
-
 ### Why this matters
 The IP with the highest request count is important because it:
 - indicates the main source of abnormal traffic,
