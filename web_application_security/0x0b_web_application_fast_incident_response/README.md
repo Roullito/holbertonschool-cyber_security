@@ -51,9 +51,9 @@ The log entries were parsed to:
 ### Result
 The IP address with the highest number of requests should be considered the **primary suspected attack source**.
 
-**Attacker IP:** `[ATTACKER_IP]`
+**Attacker IP:** `54.145.34.34`
 
-> Replace `[ATTACKER_IP]` with the exact result from your `0-attack_ip.sh` script.
+> Replace `54.145.34.34` with the exact result from your `0-attack_ip.sh` script.
 
 ### Why this matters
 The IP with the highest request count is important because it:
