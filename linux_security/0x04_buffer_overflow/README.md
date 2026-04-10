@@ -1,43 +1,44 @@
-## 0. Hack the VM — Find and Replace a String in the Heap of a Running Process
+## Buffer Overflow & Heap Manipulation — Practical Exercise
 
-### Goal of the exercise
+### Project Context
+This module explores buffer overflow and memory manipulation vulnerabilities in Linux systems. The main exercise demonstrates how to locate and modify data in the heap of a running process using Python.
 
-The goal of this exercise is to write a Python script able to:
+---
 
-- inspect the memory layout of a running process
-- locate its **heap**
-- search for a specific ASCII string inside that heap
-- replace it with another ASCII string
+### Exercise: Find and Replace a String in the Heap
+
+**Goal:**
+Write a Python script to:
+- Inspect the memory layout of a running process
+- Locate its **heap**
+- Search for a specific ASCII string inside that heap
+- Replace it with another ASCII string
 
 The script must only inspect the **heap** of the target process, not the whole memory space.
 
-Usage:
-
+**Usage:**
 ```bash
 read_write_heap.py pid search_string replace_string
 ```
-
-Example:
-
+**Example:**
 ```bash
 sudo ./read_write_heap.py 6515 Holberton maroua
 ```
 
 ---
 
-### What this exercise teaches
+### What You Will Learn
+- The Linux `/proc` filesystem
+- Process memory layout
+- Heap memory
+- Low-level memory reading and writing
+- The relationship between C strings and raw bytes in memory
 
-This exercise is a practical introduction to:
-
-- the Linux `/proc` filesystem
-- process memory layout
-- heap memory
-- low-level memory reading and writing
-- the relationship between C strings and raw bytes in memory
-
-It is also a good way to understand how data stored in a running process can be modified externally if permissions allow it.
+This is a practical way to understand how data in a running process can be externally modified if permissions allow it.
 
 ---
+
+*Holberton School Project — 2026*
 
 ### Reminder: what is the heap?
 
