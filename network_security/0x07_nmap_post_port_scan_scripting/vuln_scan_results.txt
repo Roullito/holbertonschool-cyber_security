@@ -1,1 +1,1 @@
-# Nmap 7.98 scan initiated Fri Apr 10 05:23:16 2026 as: /usr/lib/nmap/nmap --script http-vuln-cve2006-3392 -oN vuln_scan_results.txt scanme.nmap.org
+# Nmap 7.98 scan initiated Fri Apr 10 05:24:41 2026 as: /usr/lib/nmap/nmap --script http-vuln-cve2017-5638 -oN vuln_scan_results.txt scanme.nmap.org
