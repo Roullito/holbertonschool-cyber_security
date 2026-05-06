@@ -2,10 +2,10 @@
 
 class HelloWorld
     def initialize
-        @str = "Hello, World!"
+        @message = "Hello, World!"
     end
 
     def print_hello
-        puts @str
+        puts @message
     end
 end
