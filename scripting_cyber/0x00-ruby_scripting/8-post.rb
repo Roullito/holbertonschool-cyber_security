@@ -18,10 +18,14 @@ def post_request(url, body_params)
     puts "Response status: #{res.code} #{res.message}"
     puts "Response body:"
 
-    begin
-        data = JSON.parse(res.body)
-        puts JSON.pretty_generate(data)
-    rescue JSON::ParseError
-        puts response.body
+    if res.code == "404"
+        puts "{}"
+    else
+        begin
+            data = JSON.parse(res.body)
+            puts JSON.pretty_generate(data)
+        rescue JSON::ParserError
+            puts "{}"
+        end
     end
 end
