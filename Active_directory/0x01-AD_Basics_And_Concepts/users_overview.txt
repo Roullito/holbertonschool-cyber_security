@@ -1,0 +1,457 @@
+dn: CN=Administrator,CN=Users,DC=PENTESTLAB,DC=local
+cn: Administrator
+description: Built-in account for administering the computer/domain
+memberOf: CN=Group Policy Creator Owners,CN=Users,DC=PENTESTLAB,DC=local
+memberOf: CN=Domain Admins,CN=Users,DC=PENTESTLAB,DC=local
+memberOf: CN=Enterprise Admins,CN=Users,DC=PENTESTLAB,DC=local
+memberOf: CN=Schema Admins,CN=Users,DC=PENTESTLAB,DC=local
+memberOf: CN=Administrators,CN=Builtin,DC=PENTESTLAB,DC=local
+sAMAccountName: Administrator
+
+dn: CN=Guest,CN=Users,DC=PENTESTLAB,DC=local
+cn: Guest
+description: Built-in account for guest access to the computer/domain
+memberOf: CN=Guests,CN=Builtin,DC=PENTESTLAB,DC=local
+sAMAccountName: Guest
+
+dn: CN=krbtgt,CN=Users,DC=PENTESTLAB,DC=local
+cn: krbtgt
+description: Key Distribution Center Service Account
+memberOf: CN=Denied RODC Password Replication Group,CN=Users,DC=PENTESTLAB,DC=local
+sAMAccountName: krbtgt
+
+dn: CN=John Admin,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: John Admin
+title: IT Administrator
+description: IT Administrator - Domain Admin
+memberOf: CN=IT-Admins,OU=IT-Groups,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+memberOf: CN=Domain Admins,CN=Users,DC=PENTESTLAB,DC=local
+department: IT
+sAMAccountName: jadmin
+
+dn: CN=Sarah Support,OU=IT-Users,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Sarah Support
+title: Support Technician
+description: IT Support Technicien
+memberOf: CN=IT-Support,OU=IT-Groups,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+memberOf: CN=Domain Admins,CN=Users,DC=PENTESTLAB,DC=local
+department: IT
+sAMAccountName: ssupport
+
+dn: CN=Mike Manager,OU=IT-Users,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Mike Manager
+title: IT Manager
+description: IT Manager
+memberOf: CN=IT-Admins,OU=IT-Groups,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+department: IT
+sAMAccountName: mmanager
+
+dn: CN=SQL Service Account,OU=IT-ServiceAccounts,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: SQL Service Account
+description: SQL Server Service Account
+memberOf: CN=Service-Accounts-Group,OU=IT-Groups,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+sAMAccountName: svc_sql
+
+dn: CN=Legacy User,OU=IT-ServiceAccounts,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Legacy User
+description: Legacy account - no kerberos preauth
+memberOf: CN=Service-Accounts-Group,OU=IT-Groups,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+sAMAccountName: legacy
+
+dn: CN=Alice Harris,OU=HR-Users,OU=HR,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Alice Harris
+description: HR Specialist
+memberOf: CN=HR-Team,OU=HR-Groups,OU=HR,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+department: HR
+sAMAccountName: aharris
+
+dn: CN=Bob Recruiter,OU=HR-Users,OU=HR,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Bob Recruiter
+description: Senior Recruiter
+memberOf: CN=HR-Team,OU=HR-Groups,OU=HR,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+department: HR
+sAMAccountName: brecruiter
+
+dn: CN=Carol Finance,OU=FinanceUsers,OU=Finance,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Carol Finance
+description: Financial Analyst
+memberOf: CN=Finance-Team,OU=Finance-Groups,OU=Finance,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+department: Finance
+sAMAccountName: cfinance
+
+dn: CN=David Accountant,OU=FinanceUsers,OU=Finance,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: David Accountant
+description: Senior Accountant
+memberOf: CN=Finance-Team,OU=Finance-Groups,OU=Finance,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+department: Finance
+sAMAccountName: daccountant
+
+dn: CN=Emma CFO,OU=FinanceUsers,OU=Finance,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Emma CFO
+description: Chied Financial Officer
+memberOf: CN=Finance-Executives,OU=Finance-Groups,OU=Finance,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+memberOf: CN=Finance-Team,OU=Finance-Groups,OU=Finance,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+department: Finance
+sAMAccountName: ecfo
+
+dn: CN=Frank Sales,OU=Sales-Users,OU=Sales,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Frank Sales
+title: Sales Rep
+description: Sales Representative
+memberOf: CN=Sales-Team,OU=Sales-Groups,OU=Sales,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+department: Sales
+sAMAccountName: fsales
+
+dn: CN=Grace Manager,OU=Sales-Users,OU=Sales,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Grace Manager
+title: Sales Manager
+description: Sales Manager
+department: Sales
+sAMAccountName: gmanager
+
+dn: CN=Henry Rep,OU=Sales-Users,OU=Sales,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Henry Rep
+title: Junior Sales Rep
+description: Junior Sales Representive
+memberOf: CN=Sales-Team,OU=Sales-Groups,OU=Sales,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+department: Sales
+sAMAccountName: hrep
+
+dn: CN=Grace Sales,OU=Sales-Users,OU=Sales,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Grace Sales
+title: Sales team
+memberOf: CN=Sales-Team,OU=Sales-Groups,OU=Sales,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+department: Sales
+sAMAccountName: gsales
+
+dn: CN=Backup Service,OU=IT-ServiceAccounts,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Backup Service
+description: Backup Service Account - Has DCSync rights
+memberOf: CN=BH-Lab-Users,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=Domain Admins,CN=Users,DC=PENTESTLAB,DC=local
+sAMAccountName: svc_backup
+
+dn: CN=Admin Temp,OU=IT-Users,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Admin Temp
+description: Temporary Admin Account
+memberOf: CN=Domain Admins,CN=Users,DC=PENTESTLAB,DC=local
+sAMAccountName: tempadmin
+
+dn: CN=Application Service,OU=IT-ServiceAccounts,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Application Service
+description: Application Service - Password: AppServ1ce!
+sAMAccountName: svc_app
+
+dn: CN=IIS Service,OU=IT-ServiceAccounts,OU=IT,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: IIS Service
+description: IIS Web Service Account
+sAMAccountName: svc_iis
+
+dn: CN=Old Admin,OU=Disabled-Objects,OU=PENTESTLAB-CORP,DC=PENTESTLAB,DC=local
+cn: Old Admin
+description: Old administrator account - Password never changed
+sAMAccountName: oldadmin
+
+dn: CN=Alice Martin,OU=Lab_Users,DC=PENTESTLAB,DC=local
+cn: Alice Martin
+title: Developer
+description: Regular User - Lab Student
+memberOf: CN=VPN_Users,DC=PENTESTLAB,DC=local
+memberOf: CN=Domain Admins,CN=Users,DC=PENTESTLAB,DC=local
+sAMAccountName: alice.martin
+
+dn: CN=Bob Dupont,OU=Lab_Users,DC=PENTESTLAB,DC=local
+cn: Bob Dupont
+title: SysAdmin
+description: Regular User - Lab Student
+memberOf: CN=IT_Admins,DC=PENTESTLAB,DC=local
+memberOf: CN=VPN_Users,DC=PENTESTLAB,DC=local
+sAMAccountName: bob.dupont
+
+dn: CN=Carol White,OU=Lab_Users,DC=PENTESTLAB,DC=local
+cn: Carol White
+title: HR Manager
+description: FLAG4{ab312724162e30809801f7c0490f547317ba8cf3fbc243819264ddf0e52b}
+memberOf: CN=HR_Staff,DC=PENTESTLAB,DC=local
+memberOf: CN=VPN_Users,DC=PENTESTLAB,DC=local
+sAMAccountName: carol.white
+
+dn: CN=David Brown,OU=Lab_Users,DC=PENTESTLAB,DC=local
+cn: David Brown
+title: IT Analyst
+description: IT Staff
+memberOf: CN=IT_Admins,DC=PENTESTLAB,DC=local
+memberOf: CN=File_Admins,DC=PENTESTLAB,DC=local
+sAMAccountName: david.brown
+
+dn: CN=SvcBackup,OU=ServiceAccts,DC=PENTESTLAB,DC=local
+cn: SvcBackup
+title: Service
+description: FLAG1{747fb213581c9cd487fc6e77bf4e54aa6321839fe023b0551ceef706cbc6}
+memberOf: CN=Backup_Ops,DC=PENTESTLAB,DC=local
+sAMAccountName: svc.backup
+
+dn: CN=SvcWeb,OU=ServiceAccts,DC=PENTESTLAB,DC=local
+cn: SvcWeb
+title: Service
+sAMAccountName: svc.web
+
+dn: CN=OldAdmin,OU=Lab_Users,DC=PENTESTLAB,DC=local
+cn: OldAdmin
+title: Former Admin
+sAMAccountName: old.admin
+
+dn: CN=TempUser,OU=Lab_Users,DC=PENTESTLAB,DC=local
+cn: TempUser
+title: Temp
+description: DISABLED - Temporary account
+sAMAccountName: temp.user
+
+dn: CN=student,CN=Users,DC=PENTESTLAB,DC=local
+cn: student
+sAMAccountName: student
+
+dn: CN=Marcus Webb,OU=Users,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+cn: Marcus Webb
+memberOf: CN=Lab-ReadOnly,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=Machine-Abuse,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=LDAP-Lab-Users,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+sAMAccountName: mwebb
+
+dn: CN=Diana Reeves,OU=Users,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+cn: Diana Reeves
+description: Temp password: Reeves@Temp2024
+info: FLAG0{921d2a56bd128240587aa7abbcad0a37fb8e5c6e091fa763754f27648fbe}
+memberOf: CN=LDAP-Lab-Users,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+sAMAccountName: dreeves
+
+dn: CN=Ryan Foster,OU=Users,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+cn: Ryan Foster
+info: svc credential: User@2024!
+memberOf: CN=LDAP-Lab-Users,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+sAMAccountName: rfoster
+
+dn: CN=SQL Service,OU=Service-Accounts,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+cn: SQL Service
+memberOf: CN=LDAP-Lab-Users,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+sAMAccountName: svc_mssql
+
+dn: CN=Nathan Cross,OU=Users,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+cn: Nathan Cross
+title: Network Engineer
+description:: TmV0d29yayBpbmZyYXN0cnVjdHVyZSDigJQgaW50ZXJuYWwgb3BzIHRlYW0=
+memberOf: CN=Machine-Abuse,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=LDAP-Lab-Users,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+department: Information Technology
+sAMAccountName: ncross
+
+dn: CN=Olivia Stone,OU=Users,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+cn: Olivia Stone
+title: Security Analyst
+description:: UEtJIGNlcnRpZmljYXRlIG1hbmFnZW1lbnQg4oCUIHNlY3VyaXR5IG9wZXJhdGlvbnM=
+memberOf: CN=PKI-Enrollers,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=LDAP-Lab-Users,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+department: Information Security
+sAMAccountName: ostone
+
+dn: CN=Victor Hayes,OU=Users,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+cn: Victor Hayes
+title: Senior Accountant
+description:: RElTQUJMRUQg4oCUIGZvcm1lciBlbXBsb3llZSwga2VwdCBmb3IgYXVkaXQgdHJhaWw=
+memberOf: CN=LDAP-Lab-Users,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+department: Finance
+sAMAccountName: vhayes
+
+dn: CN=PKI Service,OU=Service-Accounts,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+cn: PKI Service
+title: Service Account
+description: Active Directory Certificate Services account
+memberOf: CN=PKI-Enrollers,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=LDAP-Lab-Users,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+department: Information Technology
+sAMAccountName: svc_pki
+
+dn: CN=Relay Service,OU=Service-Accounts,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+cn: Relay Service
+title: Service Account
+description:: SW50ZXJuYWwgYXV0aGVudGljYXRpb24gcmVsYXkg4oCUIG5ldHdvcmsgc2VydmljZXM=
+memberOf: CN=Relay-Targets,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=LDAP-Lab-Users,OU=Groups,OU=LDAP-Project,DC=PENTESTLAB,DC=local
+department: Information Technology
+sAMAccountName: svc_relay
+
+dn: CN=Internal Auditor,CN=Users,DC=PENTESTLAB,DC=local
+cn: Internal Auditor
+memberOf: CN=Finance-Audit,CN=Users,DC=PENTESTLAB,DC=local
+sAMAccountName: iauditor
+
+dn: CN=Service Reporting,CN=Users,DC=PENTESTLAB,DC=local
+cn: Service Reporting
+memberOf: CN=App-Admins,CN=Users,DC=PENTESTLAB,DC=local
+sAMAccountName: svc_reporting
+
+dn: CN=Low Priv User,CN=Users,DC=PENTESTLAB,DC=local
+cn: Low Priv User
+sAMAccountName: luser
+
+dn: CN=Blake Harper,OU=BH-Users,OU=BH-Project,DC=PENTESTLAB,DC=local
+cn: Blake Harper
+title: IT Trainee
+description:: TmV3IElUIHRyYWluZWUg4oCUIEJsb29kSG91bmQgY29sbGVjdGlvbiBlbnRyeSBwb2ludA==
+memberOf: CN=BH-Lab-Users,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+department: Information Technology
+sAMAccountName: bh_intern
+
+dn: CN=Chloe Mercer,OU=BH-Users,OU=BH-Project,DC=PENTESTLAB,DC=local
+cn: Chloe Mercer
+title: Helpdesk Analyst
+description:: TGV2ZWwgMiBoZWxwZGVzayDigJQgdXNlciBtYW5hZ2VtZW50IGRlbGVnYXRpb24=
+memberOf: CN=BH-Lab-Users,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+department: IT Support
+sAMAccountName: bh_helpdesk
+
+dn: CN=Ethan Novak,OU=BH-Users,OU=BH-Project,DC=PENTESTLAB,DC=local
+cn: Ethan Novak
+title: DevOps Engineer
+description:: Q0kvQ0QgcGlwZWxpbmUgbWFuYWdlbWVudCDigJQgc2VydmVyIHRpZXIgYWNjZXNz
+memberOf: CN=BH-Remote-Access,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=BH-Tier1-Servers,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=BH-Lab-Users,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+department: Software Development
+sAMAccountName: bh_devops
+
+dn: CN=Jordan Martin,OU=BH-Users,OU=BH-Project,DC=PENTESTLAB,DC=local
+cn: Jordan Martin
+title: Release Manager
+description:: QXBwbGljYXRpb24gcmVsZWFzZSBjb29yZGluYXRpb24g4oCUIENJL0NEIG93bmVy
+memberOf: CN=BH-Lab-Users,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+department: Software Development
+sAMAccountName: jmartin
+
+dn: CN=Alex Thornton,OU=BH-Users,OU=BH-Project,DC=PENTESTLAB,DC=local
+cn: Alex Thornton
+title: Senior Systems Administrator
+description:: U2VuaW9yIHN5c2FkbWluIOKAlCBBRCBpbmZyYXN0cnVjdHVyZSBtYW5hZ2VtZW50
+memberOf: CN=BH-Replication,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=BH-Remote-Access,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=BH-IT-Admins,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=BH-Lab-Users,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+department: Information Technology
+sAMAccountName: bh_sysadmin
+
+dn: CN=Morgan Liu,OU=BH-Users,OU=BH-Project,DC=PENTESTLAB,DC=local
+cn: Morgan Liu
+title: IT Auditor
+description:: RElTQUJMRUQg4oCUIGF1ZGl0IGFjY291bnQg4oCUIHJldGFpbmVkIGZvciBjb21wbGlhbmNlIHJlY29yZHM=
+memberOf: CN=BH-Lab-Users,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+department: Compliance
+sAMAccountName: bh_auditor
+
+dn: CN=Monitor Service,OU=BH-ServiceAccounts,OU=BH-Project,DC=PENTESTLAB,DC=local
+cn: Monitor Service
+title: Service Account
+description: Nagios / Zabbix monitoring agent service account
+memberOf: CN=BH-Tier1-Servers,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=BH-Lab-Users,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+department: Information Technology
+sAMAccountName: svc_monitor
+
+dn: CN=SQL Service 2,OU=BH-ServiceAccounts,OU=BH-Project,DC=PENTESTLAB,DC=local
+cn: SQL Service 2
+title: Service Account
+description:: U1FMIFNlcnZlciAyMDIyIHNlY29uZGFyeSBpbnN0YW5jZSDigJQgZG8gbm90IG1vZGlmeQ==
+memberOf: CN=BH-Lab-Users,OU=BH-Groups,OU=BH-Project,DC=PENTESTLAB,DC=local
+department: Information Technology
+sAMAccountName: svc_sql2
+
+dn: CN=Sam Rivera,OU=PV-Users,OU=PV-Project,DC=PENTESTLAB,DC=local
+cn: Sam Rivera
+title: IT Intern
+description: IT intern -- domain joined workstation user
+memberOf: CN=PV-HelpDesk,OU=PV-Groups,OU=PV-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=PV-Lab-Users,OU=PV-Groups,OU=PV-Project,DC=PENTESTLAB,DC=local
+department: Information Technology
+sAMAccountName: pv_intern
+
+dn: CN=Laura Chen,OU=PV-Users,OU=PV-Project,DC=PENTESTLAB,DC=local
+cn: Laura Chen
+title: Helpdesk Technician
+description: INACTIVE -- helpdesk tech -- no logon in 400+ days
+memberOf: CN=PV-HelpDesk,OU=PV-Groups,OU=PV-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=PV-Lab-Users,OU=PV-Groups,OU=PV-Project,DC=PENTESTLAB,DC=local
+department: IT Support
+sAMAccountName: pv_helpdesk
+
+dn: CN=David Marsh,OU=PV-Users,OU=PV-Project,DC=PENTESTLAB,DC=local
+cn: David Marsh
+title: IT Manager
+description: IT Manager -- infrastructure oversight
+memberOf: CN=PV-IT-Admins,OU=PV-Groups,OU=PV-Project,DC=PENTESTLAB,DC=local
+memberOf: CN=PV-Lab-Users,OU=PV-Groups,OU=PV-Project,DC=PENTESTLAB,DC=local
+department: Information Technology
+sAMAccountName: pv_manager
+
+dn: CN=Rachel Kim,OU=PV-Users,OU=PV-Project,DC=PENTESTLAB,DC=local
+cn: Rachel Kim
+title: IT Auditor
+description: DISABLED -- former IT auditor -- retained for compliance
+memberOf: CN=PV-Lab-Users,OU=PV-Groups,OU=PV-Project,DC=PENTESTLAB,DC=local
+department: Compliance
+sAMAccountName: pv_auditor
+
+dn: CN=Tom Bradley,OU=PV-Users,OU=PV-Project,DC=PENTESTLAB,DC=local
+cn: Tom Bradley
+title: Desktop Engineer
+description: Desktop deployment engineer -- GPO management
+memberOf: CN=PV-Lab-Users,OU=PV-Groups,OU=PV-Project,DC=PENTESTLAB,DC=local
+department: IT Support
+sAMAccountName: pv_gpo
+
+dn: CN=Print Service,OU=PV-ServiceAccounts,OU=PV-Project,DC=PENTESTLAB,DC=local
+cn: Print Service
+title: Service Account
+description: Windows Print Spooler service account -- do not modify
+memberOf: CN=PV-Lab-Users,OU=PV-Groups,OU=PV-Project,DC=PENTESTLAB,DC=local
+department: Information Technology
+sAMAccountName: svc_print
+
+dn: CN=svc_web,CN=Users,DC=PENTESTLAB,DC=local
+cn: svc_web
+description: Web service account
+sAMAccountName: svc_web
+
+dn: CN=hr_manager,CN=Users,DC=PENTESTLAB,DC=local
+cn: hr_manager
+description: HR Manager
+displayName: FLAG3{c3f9a81e7b2d4c6f8e1a0b9d3f5c7e2a11223344556677889900aabbccddeeff_powerview}
+sAMAccountName: hr_manager
+
+dn: CN=pv_ops,CN=Users,DC=PENTESTLAB,DC=local
+cn: pv_ops
+description: PowerView ops helper
+memberOf: CN=PV-OpsTeam,CN=Users,DC=PENTESTLAB,DC=local
+memberOf: CN=PrivilegedOps,CN=Users,DC=PENTESTLAB,DC=local
+sAMAccountName: pv_ops
+
+dn: CN=svc_deploy,CN=Users,DC=PENTESTLAB,DC=local
+cn: svc_deploy
+description: Deployment service account
+sAMAccountName: svc_deploy
+
+dn: CN=pv_scout,CN=Users,DC=PENTESTLAB,DC=local
+cn: pv_scout
+description: PowerView scout account
+sAMAccountName: pv_scout
+
+dn: CN=labuser,CN=Users,DC=PENTESTLAB,DC=local
+cn: labuser
+memberOf: CN=Domain Admins,CN=Users,DC=PENTESTLAB,DC=local
+memberOf: CN=Administrators,CN=Builtin,DC=PENTESTLAB,DC=local
+sAMAccountName: labuser
+
+# refldap://ForestDnsZones.PENTESTLAB.local/DC=ForestDnsZones,DC=PENTESTLAB,DC=local
+
+# refldap://DomainDnsZones.PENTESTLAB.local/DC=DomainDnsZones,DC=PENTESTLAB,DC=local
+
+# refldap://PENTESTLAB.local/CN=Configuration,DC=PENTESTLAB,DC=local
+
