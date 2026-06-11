@@ -1,0 +1,64 @@
+SMB                      192.168.220.128 445    DC01             [*] Windows Server 2019 Datacenter Evaluation 17763 x64 (name:DC01) (domain:PENTESTLAB) (signing:True) (SMBv1:True)
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\Administrator:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\aharris:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\alice.martin:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\bh_auditor:User@2025! STATUS_ACCOUNT_DISABLED 
+SMB                      192.168.220.128 445    DC01             [+] PENTESTLAB\bh_devops:User@2025! 
+SMB                      192.168.220.128 445    DC01             [+] PENTESTLAB\bh_helpdesk:User@2025! 
+SMB                      192.168.220.128 445    DC01             [+] PENTESTLAB\bh_intern:User@2025! 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\bh_sysadmin:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\bob.dupont:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\brecruiter:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\carol.white:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\cfinance:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\daccountant:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\david.brown:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\dreeves:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\ecfo:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\fsales:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\gmanager:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\gsales:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\Guest:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\hrep:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\hr_manager:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\iauditor:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\jadmin:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\jmartin:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\krbtgt:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\labuser:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\legacy:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\luser:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\mmanager:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\mwebb:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\ncross:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\old.admin:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\oldadmin:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\ostone:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\pv_auditor:User@2025! STATUS_ACCOUNT_DISABLED 
+SMB                      192.168.220.128 445    DC01             [+] PENTESTLAB\pv_gpo:User@2025! 
+SMB                      192.168.220.128 445    DC01             [+] PENTESTLAB\pv_helpdesk:User@2025! 
+SMB                      192.168.220.128 445    DC01             [+] PENTESTLAB\pv_intern:User@2025! 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\pv_manager:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\pv_ops:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\pv_scout:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\rfoster:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\ssupport:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\student:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_app:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc.backup:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_backup:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_deploy:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_iis:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_monitor:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_mssql:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_pki:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_print:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_relay:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_reporting:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_sql:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_sql2:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc.web:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\svc_web:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\tempadmin:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\temp.user:User@2025! STATUS_LOGON_FAILURE 
+SMB                      192.168.220.128 445    DC01             [-] PENTESTLAB\vhayes:User@2025! STATUS_LOGON_FAILURE 

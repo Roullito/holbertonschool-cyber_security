@@ -1,1 +1,1 @@
-FLAG5{f6c8d9e0a1b23456abcdefabcdefabcdef112233445566778899aabbccddeeff_powerview}
+BHFLAG5{DCSYNC_DOM41N_C0MPR0M1S3_F5}
